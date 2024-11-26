@@ -1,8 +1,8 @@
-class CErr extends Error {
+class customError extends Error {
     constructor(msg, status) {
       super(msg);
       this.status = status;
     }
 }
 
-module.exports = CErr;
+module.exports = customError;
